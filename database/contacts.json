@@ -1,0 +1,23 @@
+[
+    {
+    "firstName": "Rebecca",
+    "lastName": "Altman",
+    "email": "rebeccaaltman@gmail.com",
+    "favoriteColor": "purple",
+    "birthday": "1970-08-01"
+    },
+    {
+    "firstName": "Blake",
+    "lastName": "Altman",
+    "email": "blakealtman@gmail.com",
+    "favoriteColor": "orange",
+    "birthday": "2000-10-01"
+    },
+    {
+    "firstName": "Hannah",
+    "lastName": "Altman",
+    "email": "hannahaltman@gmail.com",
+    "favoriteColor": "blue",
+    "birthday": "2001-05-01"
+    }
+]

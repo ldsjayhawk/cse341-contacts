@@ -17,6 +17,9 @@
   },
   "homepage": "https://github.com/ldsjayhawk/cse341-contacts#readme",
   "dependencies": {
-    "express": "^5.1.0"
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "mongod": "^2.0.0",
+    "mongodb": "^6.19.0"
   }
 }
