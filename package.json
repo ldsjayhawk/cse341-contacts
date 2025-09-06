@@ -1,0 +1,19 @@
+{
+  "name": "cse341-contacts",
+  "version": "1.0.0",
+  "description": "contacts project for cse341",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ldsjayhawk/cse341-contacts.git"
+  },
+  "author": "Cris Altman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ldsjayhawk/cse341-contacts/issues"
+  },
+  "homepage": "https://github.com/ldsjayhawk/cse341-contacts#readme"
+}
