@@ -1,10 +1,24 @@
 const express = require('express');
-const mongo = require('./database/database');
 const app = express();
+const mongo = require('./database/database');
+const bodyParser = require('body-parser');
+// const swaggerRouter = require('./routes/swagger');
 
 const port = process.env.PORT || 3000; // declare port
 
+app.use(bodyParser.json());
+app.use((req, res, next) => {
+    res.setHeader('Access-Control-Allow-Origin', '*');
+    res.setHeader(
+        'Access-Control-Allow-Headers',
+        'Origin, X-Requested-With', 'Content-Type', 'Accept', 'Z-Key'
+    );
+    res.setHeader('Access-Control-Allow-Methods','GET, POST, PUT, DELETE, OPTIONS');
+    next();
+});
 app.use('/', require('./routes'));
+// app.use('/api-docs', swaggerRouter);
+
 
 mongo.initDb((err) => {
     if(err) {
